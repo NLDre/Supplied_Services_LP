@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, .cta, .cta-s {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.nav-bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    
+    
+}
+
+
+.nav-bar .logo {
+    padding: 2px;
+    max-height: 100%;
+    max-width: 30%;
+}
+
+.links {
+    margin: 2%;
+    display: flex;
+    gap: 8%;
+    width: 40%;
+    justify-content: right;
+}
+
+.links a {
+    text-decoration: none;
+    transition: 0.3s ease-in;
+    color: white;
+    padding-bottom: 3%;
+    
+}
+
+.links a:hover{
+    border-bottom: 2px solid #38b6ff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/grass2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: crisp-edges
+    
+}
+
+.hero-col {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    gap: 5%;
+    padding: 2%;
+}
+
+main p {
+    width: 50%;
+}
+
+.hero-col p {
+    padding: 2%;
+}
+
+.websites {
+    background-color: #a3b38c;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+    
+}
+
+.title {
+    border-bottom: 3px solid white;
+}
+
+
+.wcol-1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wcol-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    gap: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.hosting {
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.hcol-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    gap: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.hcol-2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar {
+    overflow: hidden;
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #a3b38c;
+}
+
+.calendar h2 {
+    margin-bottom: 2%;
+    border-bottom: 5px solid white;
+}
+
+.ccol-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.ccol-1 img {
+    width: 80%;
+    height: auto;
+    
+}
+
+.ccol-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calendly-inline-widget {
+    border: 15px solid black;
+    border-radius: 5%;
+}
+
+span {
+   padding: 2%; 
+   font-size: 120%;
+}
+
+footer {
+    display: flex;
+    align-items: baseline;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #3A6A3A;;   
+}
+
+.fcol-1 {
+   flex: 1;
+}
+
+.fcol-1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.fcol-2 {
+   flex: 1;
+}
+
+.socials {
+    display: flex;
+    display: none;
+    gap: 2%;
+}
+
+
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.cta {
+    padding: 2%;
+    color: #3A6A3A;
+    background-color: #D9EAD3;
+    border: none;
+    border-radius: 10%;
+    text-decoration: none;
+    align-self: center;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+background-color:#38b6ff;
+color: white;
+cursor: pointer;
+}
+
+.cta-s {
+    background-color: #38b6ff;
+    color: white;
+    padding: 2%;
+    border-radius: 10%;
+    border: none;
+    text-decoration: none;
+    align-self: center;
+    transition: background-color 0.3s;
+}
+
+.cta-s:hover {
+    background-color:white;
+    color: #38b6ff;
+    cursor: pointer;
+    }
+
+.hpButtons {
+    display: flex;
+    gap: 25%;
+}
+    /* End of index Code*/ 
+
+/* End of Home Page code*/
+
+header {
+    text-align: center;
+    font-size: 170%;
+}
+
+
+#servicePage  {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#servicePage header {
+    color: #3A6A3A;
+}
+
+.services {
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    justify-content: space-evenly;
+    padding: 2%;
+    gap: 10px;
+    align-items: center;
+    text-align: center;  
+}
+
+.services h2 {
+    color: #3A6A3A;
+}
+
+.swh ul, .lnm ul, .hh ul {
+    padding-left: 10px;
+    list-style-position: inside;
+}
+
+
+.swh {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    background-color: #D9EAD3;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 2%;
+    gap: 10px;
+}
+
+.lnm {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    background-color: #a3b38c;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 2%;
+    gap: 10px;
+}
+
+.hh {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 2%;
+    gap: 10px;
+}
+
+button.unavailable {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.hh span {
+    color: white !important;
+}
+
+.features li{
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     border: 2px solid #3A6A3A;
+     padding: 2%;
+     border-radius: 10px;
+     margin: 2%;
+     gap: 4%;
+}
+
+.pay-choices button {
+    color: #38b6ff;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.pay-choices button:hover {
+     background-color: #38b6ff;
+     color: white;
+     cursor: pointer;
+}
+
+.services span {
+    font-style: italic;
+    color: #5B3D29;
+}
+
+.price  strong{
+    font-size: 50px;
+}
+
+/* End of Services Code */
+
+#contact-page main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 2%;
+    background-image: url(assets/park.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-form {
+    border: 1px solid white;
+    padding: 2%;
+    max-height: 100%;
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #a3b38c;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+
+}
+
+.contact-form input{
+    margin: 2%;
+    padding: 5%;
+    background-color: #F5F5F5;
+    color: #5B3D29;
+    border: none;
+    border-bottom: 1px solid #A5D6A7;
+    border-radius: 20px;
+    
+}
+
+.contact-form input::placeholder {
+    color: #5B3D29;
+}
+
+
+.contact-form span {
+    font-size: 60%;
+}
+
+form h2, .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3A6A3A;
+    gap: 8%;
+}
+
+.social-icons {
+    display: none;
+    font-size: 180%;
+}
+
+
+.form-control textarea {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 10%;
+    padding: 20%;
+    
+}
+
+.contact-form textarea {
+    color: black;
+    border-radius: 20px;
+}
+
+.contact-form .button-primary {
+    
+    background-color: white;
+    color:#38b6ff;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.button-primary input:hover {
+    background-color:#38b6ff;
+    color: white;
+}
+
+.links a {
+    height: 35%;
+    border-radius: 0;
+}
+
+/* End of Contact code*/
+
+#about-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+#about-page  main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+.aboutUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutUs p {
+    color: #5B3D29;
+    background-color: #F5F5F5;
+    border-left: 4px solid #4CAF50;
+    padding: 2%;
+}
+
+
+.acol-1 {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    gap: 10%;
+    padding: 2%;
+}
+
+.acol-1 header {
+    color: #3A6A3A;
+}
+
+.acol-2 {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.acol-2 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

@@ -537,8 +537,9 @@ form h2, .social-icons {
     color: #5B3D29;
     background-color: #F5F5F5;
     border-left: 4px solid #4CAF50;
+    border-right: 4px solid #4CAF50;
     padding: 2%;
-    max-height: 30%;
+    height: 40%;
     width: 100%;
 }
 
